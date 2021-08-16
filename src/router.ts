@@ -5,8 +5,6 @@ import { initResultPage } from "./pages/result/result";
 
 // Init router function
 export function initRouter(container: Element) {
-    console.log("> Se cargó el router");
-
     // Routes collection
     const routes = [
         {
@@ -57,11 +55,9 @@ export function initRouter(container: Element) {
 
     // If the route is just "/dwf-m5-desafio"
     if (location.host.includes("github.io")) {
-        console.log("> Se inició la primera página");
         goTo("/dwf-m5-desafio/home");
     } else {
         // Handle the route for the first time
-        console.log("> Se cargó la ruta: ", location.pathname);
         handleRoute(location.pathname);
     }
 
