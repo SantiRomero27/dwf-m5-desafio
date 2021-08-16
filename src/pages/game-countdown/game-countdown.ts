@@ -91,7 +91,7 @@ export function initGameCountdownPage(params) {
 
             // Send to the Result page
             setTimeout(() => {
-                params.goToFunction("/result");
+                params.goToFunction("/dwf-m5-desafio/result");
             }, 4000);
         }
 

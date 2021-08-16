@@ -20,7 +20,7 @@ export function initHomePage(params) {
 
     buttonEl.addEventListener("click", () => {
         // Go to the next page
-        params.goToFunction("/instructions");
+        params.goToFunction("/dwf-m5-desafio/instructions");
     });
 
     return homePageCont;

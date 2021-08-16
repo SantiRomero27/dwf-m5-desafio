@@ -19,7 +19,7 @@ export function initInstructionsPage(params) {
     // Add an event listener to the button, in order to redirect to the game countdown
     const buttonEl = instructionsPageCont.querySelector("custom-button");
     buttonEl.addEventListener("click", () => {
-        params.goToFunction("/game-countdown");
+        params.goToFunction("/dwf-m5-desafio/game-countdown");
     });
 
     return instructionsPageCont;

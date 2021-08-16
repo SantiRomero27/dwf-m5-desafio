@@ -8,22 +8,22 @@ export function initRouter(container: Element) {
     // Routes collection
     const routes = [
         {
-            path: /\/home$/,
+            path: /\/dwf-m5-desafio\/home/,
             page: initHomePage,
         },
 
         {
-            path: /\/instructions$/,
+            path: /\/dwf-m5-desafio\/instructions/,
             page: initInstructionsPage,
         },
 
         {
-            path: /\/game-countdown$/,
+            path: /\/dwf-m5-desafio\/game-countdown/,
             page: initGameCountdownPage,
         },
 
         {
-            path: /\/result$/,
+            path: /\/dwf-m5-desafio\/result/,
             page: initResultPage,
         },
     ];

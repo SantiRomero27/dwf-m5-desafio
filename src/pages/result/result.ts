@@ -52,7 +52,7 @@ export function initResultPage(params) {
     // Add an event listener to the button
     const buttonEl = resultPageCont.querySelector("custom-button");
     buttonEl.addEventListener("click", () => {
-        params.goToFunction("/instructions");
+        params.goToFunction("/dwf-m5-desafio/instructions");
     });
 
     return resultPageCont;
