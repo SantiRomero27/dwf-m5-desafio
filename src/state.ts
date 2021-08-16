@@ -44,6 +44,8 @@ const state = {
         // Get the current state
         const currentState = this.getState();
 
+        console.log(currentState);
+
         // Change the move from the current game
         currentState["currentGame"][player] = movement;
 
@@ -120,6 +122,10 @@ const state = {
     init() {
         // Get the local data
         const localData = JSON.parse(localStorage.getItem("games-data"));
+
+        if (!localData) {
+            return;
+        }
 
         this.setState(localData);
     },
