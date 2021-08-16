@@ -55,9 +55,9 @@ export function initRouter(container: Element) {
         }
     }
 
-    // If the route is just "/"
-    if (location.pathname === "/") {
-        goTo("/home");
+    // If the route is just "/dwf-m5-desafio"
+    if (location.pathname === "/dwf-m5-desafio") {
+        goTo("/dwf-m5-desafio/home");
     } else {
         // Handle the route for the first time
         handleRoute(location.pathname);
