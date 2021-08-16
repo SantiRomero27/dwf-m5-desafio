@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("./assets/manos.png");
+    font-family: "Odibee Sans";
+}
+
+#root {
+    width: 80%;
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+}

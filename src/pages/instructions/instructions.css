@@ -1,0 +1,26 @@
+.instructions {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20%;
+    height: inherit;
+}
+
+.instructions-text {
+    margin: 0;
+    margin-bottom: 7.5%;
+
+    text-align: center;
+    font-size: 52px;
+    overflow-wrap: break-word;
+}
+
+.hands-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    margin-top: auto;
+    width: 100%;
+    overflow: hidden;
+}
