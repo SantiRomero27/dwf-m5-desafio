@@ -1,0 +1,2 @@
+.game-countdown{display:grid;grid-template-columns:minmax(0,1fr);align-items:flex-end;height:inherit}.game-hands-show{grid-template-rows:repeat(2,minmax(0,1fr));align-items:flex-end;justify-items:center;overflow:hidden}.countdown-timer{margin:0;text-align:center;font-size:128px}.hands-container-countdown{display:flex;justify-content:space-around;align-items:flex-end;width:100%;overflow:hidden}.computer-hand{align-self:flex-start;transform:rotate(180deg)}.user-hand{transform:translateY(-25px)}
+/*# sourceMappingURL=index.e68e5525.css.map */
