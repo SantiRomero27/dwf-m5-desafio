@@ -44,8 +44,6 @@ const state = {
         // Get the current state
         const currentState = this.getState();
 
-        console.log(currentState);
-
         // Change the move from the current game
         currentState["currentGame"][player] = movement;
 
